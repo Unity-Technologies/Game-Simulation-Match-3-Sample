@@ -1,7 +1,7 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//TODO: 0. Import Unity Game Simulation package
+using Unity.Simulation.Games;
 
 public class Match3GameSimulation : MonoBehaviour {
 
@@ -11,26 +11,24 @@ public class Match3GameSimulation : MonoBehaviour {
     private LevelSO levelSO;
 
     private void Awake() {
-        // TODO: 1. Load parameters for grid search
+        GameSimManager.Instance.FetchConfig(OnFetchConfig);
 
-        // 5. Add event handler when winning/losing the game
         match3.OnWin += Match3_OnWin;
         match3.OnOutOfMoves += Match3_OnOutOfMoves;
     }
 
     private void Match3_OnWin(object sender, System.EventArgs e) {
-        // TODO: 3a. Enable tracking metric <Level>_Win_Moves_Used when the game is won
-        // TODO: 3b. Call EndGameSimulation()
+        GameSimManager.Instance.SetCounter(levelSO.name + "_Win_MovesUsed", match3.GetUsedMoveCount());
+        EndGameSimulation();
     }
 
     private void Match3_OnOutOfMoves(object sender, System.EventArgs e) {
-        // TODO: 4a. Enable tracking metric <Level>_Lose when the game is lost
-        // TODO: 4B. Call EndGameSimulation()
+        GameSimManager.Instance.SetCounter(levelSO.name + "_Lose", 1);
+        EndGameSimulation();
     }
 
-    /* // TODO: 2b. Uncomment this method
     private void OnFetchConfig(GameSimConfigResponse gameSimConfigResponse) {
-        // TODO: 2a. Load parameter "level" for grid search and set it to a string variable "levelName"
+        string levelName = gameSimConfigResponse.GetString("level");
 
         LevelSO loadLevel = null;
 
@@ -48,9 +46,8 @@ public class Match3GameSimulation : MonoBehaviour {
 
         this.levelSO = loadLevel;
         match3.SetLevelSO(loadLevel);
-    }*/
+    }
 
-    // 6. Gracefully end the simulation
     private void EndGameSimulation() {
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
@@ -60,3 +57,4 @@ public class Match3GameSimulation : MonoBehaviour {
     }
 
 }
+*/
