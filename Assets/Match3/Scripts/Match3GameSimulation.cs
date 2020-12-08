@@ -19,13 +19,13 @@ public class Match3GameSimulation : MonoBehaviour {
     }
 
     private void Match3_OnWin(object sender, System.EventArgs e) {
-        // TODO: 3a. Enable tracking metric <Level>_Win_Moves_Used when the game is won
+        // TODO: 3a. Enable tracking metric levelSO.name_Win_Moves_Used when the game is won
         // TODO: 3b. Call EndGameSimulation()
     }
 
     private void Match3_OnOutOfMoves(object sender, System.EventArgs e) {
-        // TODO: 4a. Enable tracking metric <Level>_Lose when the game is lost
-        // TODO: 4B. Call EndGameSimulation()
+        // TODO: 4a. Enable tracking metric levelSO.name_Lose when the game is lost
+        // TODO: 4b. Call EndGameSimulation()
     }
 
     /* // TODO: 2b. Uncomment this method
