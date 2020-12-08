@@ -650,10 +650,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 99b33e91-ba11-4953-9fac-51259e901ec3
+  cloudProjectId: 2e683b87-f867-4f04-a73d-e5e6755e8b71
   framebufferDepthMemorylessMode: 0
-  projectName: Match3 Game Simulation
-  organizationId: hugo-cardoso
+  projectName: Game Simulation Match 3 Sample
+  organizationId: playtesting
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

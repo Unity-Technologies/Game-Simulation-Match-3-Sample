@@ -4,8 +4,7 @@ Welcome to the Games Workshop at Unity AI Summit! In this workshop, you will lea
 
 # Prerequisites
 - Have a Unity ID. If you don't have a Unity ID, please create one at https://id.unity.com/. 
-- Have a Github account to download the sample game from this repository.
-- Install Unity 2019.4.10 from Unity Hub
+- Install Unity 2018.3 and later from Unity Hub. For this workshop, we recommend 2019.4.10.
 - Sign up Unity Game Simulation service [here](https://dashboard.unity3d.com/metered-billing/marketplace/products/2771b1e8-4d77-4b34-9b9d-7d6f15ca6ba1) 
 using the Unity ID and organization of your choice. 
 We offer you a one-time credit of 500 simulation hours. You will not be charged in this workshop.
