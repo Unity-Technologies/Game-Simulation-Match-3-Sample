@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 //TODO: 0. Import Unity Game Simulation package by uncommenting the line below
-//using Unity.Simulation.Game
+//using Unity.Simulation.Games;
 
 public class Match3GameSimulation : MonoBehaviour {
 
