@@ -4,7 +4,9 @@ Welcome to the Games Workshop at Unity AI Summit! In this workshop, you will lea
 
 # Prerequisites
 - Have a Unity ID. If you don't have a Unity ID, please create one at https://id.unity.com/. 
-- Install Unity 2018.3 and later from Unity Hub. For this workshop, we recommend 2019.4.10.
+- Install Unity 2018.3 and later from Unity Hub. For this workshop, we recommend 2019.4. 
+Game Simulation currently requires a Linux build, which requires the Linux Build Module to be installed for your selected version of Unity. 
+![Add linux build module](https://unity-technologies.github.io/gamesimulation/Docs/Images/add-linux-build.gif)
 - Sign up Unity Game Simulation service [here](https://dashboard.unity3d.com/metered-billing/marketplace/products/2771b1e8-4d77-4b34-9b9d-7d6f15ca6ba1) 
 using the Unity ID and organization of your choice. 
 We offer you a one-time credit of 500 simulation hours. You will not be charged in this workshop.
@@ -109,7 +111,7 @@ Once you have implemented the Unity Game Simulation package and have uploaded yo
 We will follow the [Unity Game Simulation Dashboard Guide](https://unity-technologies.github.io/gamesimulation/Docs/Dashboard.html) in this section.
 
 ### Create Simulation
-1. Log in [gamesimulation.unity3d.com](gamesimulation.unity3d.com) using your Unity ID
+1. Log in [gamesimulation.unity3d.com](https://gamesimulation.unity3d.com/) using your Unity ID
 2. Access your project using the navigation on the left. Select the project that you just uploaded a build to. 
 3. Create Simulation
 
