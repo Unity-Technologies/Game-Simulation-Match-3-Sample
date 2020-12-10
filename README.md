@@ -2,6 +2,13 @@
 
 Welcome to the Games Workshop at Unity AI Summit! In this workshop, you will learn how to set up simulations to playtest a sample match-3 game. 
 
+## Workshop Agenda
+
+- Introduction - 5 minutes
+- Overview of the workshop and demo of the sample game - 10 minutes
+- Learn about Game Simulation Integration with the sample game and launch simulations in groups - 50 minutes
+- Q&A - 15 minutes
+
 # Prerequisites
 - Have a Unity ID. If you don't have a Unity ID, please create one at https://id.unity.com/. 
 - Sign up Unity Game Simulation service [here](https://dashboard.unity3d.com/metered-billing/marketplace/products/2771b1e8-4d77-4b34-9b9d-7d6f15ca6ba1) 
