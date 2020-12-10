@@ -73,6 +73,17 @@ You may want to find the answer to the following questions:
 With Unity Game Simulation, you can instrument your game with remote configurable parameters 
 and metrics. Next, you set up simulations in the cloud to playtest the game to answer game balancing questions.
 
+In the breakout sessions, you will follow the integration guide to complete the following exercises. 
+
+### Exercise 1
+Design a simulation to find the average number of moves used in order to win a level. The level names are: `Level_A`, `Level_B`, `Level_C`, `Level_D`, and `Level_E`. 
+
+### Exercise 2 
+Design a simulation to find the average win rate of each level. The level names are: `Level_A`, `Level_B`, `Level_C`, `Level_D`, and `Level_E`.
+
+### Exercise 3 (stretch goal)
+In `Level_A`, how does changing the "Move Amount" and "Target Score" affect the win rate? 
+
 ## Integration Guide
 Open the sample game in Unity Editor, then navigate to Assets > Match3 and open the `GameScene_Match3` scene. 
  - In the Hierarchy and make sure the “Match3Bot” Component is enabled. 
