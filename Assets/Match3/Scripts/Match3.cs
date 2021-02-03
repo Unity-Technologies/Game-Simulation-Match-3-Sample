@@ -16,6 +16,7 @@ public class Match3 : MonoBehaviour {
     public event EventHandler OnOutOfMoves;
     public event EventHandler OnScoreChanged;
     public event EventHandler OnWin;
+    public event EventHandler OnGameEnd;
 
     public class OnNewGemGridSpawnedEventArgs : EventArgs {
         public GemGrid gemGrid;
@@ -523,6 +524,7 @@ public class Match3 : MonoBehaviour {
         if (!HasMoveAvailable()) {
             // No more moves, game over!
             OnOutOfMoves?.Invoke(this, EventArgs.Empty);
+            OnGameEnd?.Invoke(this, EventArgs.Empty);
             return true;
         }
 
@@ -532,6 +534,7 @@ public class Match3 : MonoBehaviour {
                 if (score >= levelSO.targetScore) {
                     // Reached Target Score!
                     OnWin?.Invoke(this, EventArgs.Empty);
+                    OnGameEnd?.Invoke(this, EventArgs.Empty);
                     return true;
                 }
                 break;
@@ -539,6 +542,7 @@ public class Match3 : MonoBehaviour {
                 if (GetGlassAmount() <= 0) {
                     // All glass destroyed!
                     OnWin?.Invoke(this, EventArgs.Empty);
+                    OnGameEnd?.Invoke(this, EventArgs.Empty);
                     return true;
                 }
                 break;
